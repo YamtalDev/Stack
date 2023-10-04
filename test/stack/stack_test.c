@@ -133,7 +133,7 @@ void StackTest(void)
 
     if(!StackIsEmpty(stack))
     {
-        printf("\nstack IsEmpty test - passed.\nstack is not empty.\n\n");    
+        printf("\nstack IsEmpty test - passed.\nstack is not empty.\n\n");
     }
     else
     {

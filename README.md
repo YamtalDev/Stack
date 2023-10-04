@@ -1,30 +1,29 @@
-# Linear-DataStructures
+# Stack
 
-This repository houses C Linear data structures implementations. Each Implementation is organized in the include test and src folders.
+This repository contains a C implementation of a stack data structure. The implementation is organized into include, test, and src folders.
 
 ## Overview
 
-This repository serves as a C data structures source implementations. Each data 
-structure implementation is accompanied by a set of files that 
-make it easy to build, run, debug, and clean the project.
+
+This repository provides a C data structure implementation of a stack. It includes a set of files that make it easy to build, run, test, and clean the project.
 
 ## Getting Started
 
-* If you'd like to use one of the data structures in this repository, follow these simple steps:
+If you'd like to use the stack implementation from this repository, follow these simple steps:
 
 ```shell
 
-$ git clone https://github.com/YamtalDev/Linear-DataStructures.git
-$ cd "/test/"data_structure_name"
+$ git clone https://github.com/YamtalDev/Stack.git
+$ cd "/test/stack
 $ make && make run
 
 ```
 
-## The structure of the folder is:
+## Project structure:
 
 ```shell
 
-├── Linear-DataStructures/
+├── Stack/
 │   ├── bin/
 │   │   ├── executables/
 │   │   ├── objects/
@@ -32,10 +31,10 @@ $ make && make run
 │   │   └── static_libs/
 │   |
 |   ├── include/
-│   │   └── Header files
+│   │   └── Header file
 |   |
 │   ├── src/
-│   │   └── src files
+│   │   └── src file
 |   |
 │   ├── test/
 │   │   ├── makefile
@@ -43,39 +42,37 @@ $ make && make run
 
 ```
 
-### Inside the implementation folder `/test/"data_structure_name"`, you'll find the following files:
-
-- data_structure_name_test.c: A test file for testing the implementation.
-- Makefile: A Makefile to automate compilation, running, debugging, and cleaning.
-
-### Inside the Include folder you'll find:
-
-- data_structure_name.h: The header file containing the necessary declarations.
-
-### Inside the src folder you'll find:
-
-- data_structure_name.c: The C source file with the implementation.
-
 ## Usage
 
 To compile, run, debug, or clean the project, you can use the provided Makefile 
 with the following commands:
 
+- Simple compilation
 ```shell
-# Simple compilation
 $ make
-# Running the project
-$ make run
-# Debugging the project
-$ make debug
-# Deleting all the obj, exe, shared/static libs files
-$ make clean 
-# Checking valgrind on the project
-$ make vlg 
-# Release compilation with optimization -O3
-$ make release
-
 ```
+- Running the project
+```shell
+$ make run
+```
+- Debugging the project
+```shell
+$ make debug
+```
+- Deleting all the .o, executables, shared/static libs files
+```shell
+$ make clean 
+```
+- Checking valgrind on the project
+```shell
+$ make vlg 
+```
+
+- Release compilation with optimization -O3
+```shell
+$ make release
+```
+
 These simple commands streamline the development process and make it easy to work 
 with each project in this repository.
 
@@ -83,5 +80,7 @@ with each project in this repository.
 
 For any questions about the project:
 
-### Name: Tal Aharon
-### Email: tal.aharon.work@gmail.com
+<h3 align="left">Connect with me:</h3>
+<div align="left">
+<a href="https://www.linkedin.com/in/tal-aharon-930451215/" target="blank"> <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  /> </a> <a href="https://discordapp.com/users/996021603253100575" target="blank"> <img src="https://cdn.simpleicons.org/discord/5865F2" width="52" height="40" alt="discord logo"  /> </a> <a href="" target="blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" width="52" height="40" alt="slack logo"/> </a> <a href="https://github.com/YamtalDev" target="blank"> <img src="https://skillicons.dev/icons?i=github" width="52" height="40" alt="github logo"/> </a> <a href="https://www.facebook.com/tal.aharon.395/" target="blank"> <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" width="52" height="40" alt="facebook logo"  /> </a> <a href="https://medium.com/@anatolik241094" target="blank"> <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" width="52" height="40" alt="medium logo"  /> </a>
+</div>
