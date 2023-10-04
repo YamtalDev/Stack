@@ -14,8 +14,8 @@ If you'd like to use the stack implementation from this repository, follow these
 ```shell
 
 $ git clone https://github.com/YamtalDev/Stack.git
-$ cd "/test/stack
-$ make && make run
+$ cd Stack/test/stack
+$ make run
 
 ```
 
