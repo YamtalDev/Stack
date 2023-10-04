@@ -76,9 +76,13 @@ $ make release
 These simple commands streamline the development process and make it easy to work 
 with each project in this repository.
 
+## License:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
 ## Contact
 
-For any questions about the project:
+For questions or issues, feel free to [create an issue](https://github.com/YamtalDev/Stack/issues) or contact the project maintainer.
 
 <h3 align="left">Connect with me:</h3>
 <div align="left">
