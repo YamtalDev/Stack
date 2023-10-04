@@ -55,7 +55,7 @@ C_FILES = $(MAIN) $(SRC)
 # Files of the project
 O_FILES = $(O_MAIN) $(O_SRC)
 
-.PHONY : run leak release debug lib.a lib.so link_shared link_static clean
+.PHONY : run vlg release debug lib.a lib.so link_shared link_static clean
 
 #******************************************************************************
 
@@ -77,7 +77,7 @@ run : $(TARGET)
 
 #******************************************************************************
 
-leak : $(TARGET)
+vlg : $(TARGET)
 	$(VALGRIND) $(TARGET)
 	clear
 

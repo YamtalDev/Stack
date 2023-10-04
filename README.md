@@ -65,7 +65,7 @@ $ make clean
 ```
 - Checking valgrind on the project
 ```shell
-$ make vlg 
+$ make vlg
 ```
 
 - Release compilation with optimization -O3
